@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "har-ki-pauri",
+        "name": "Har Ki Pauri",
+        "area_m2": 12000,
+        "capacity_assumed": 40000,
+        "adjacency": ["brahmakund", "ganga-ghat-upper"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0022, 29.9244],
+          [78.0048, 29.9244],
+          [78.0048, 29.9258],
+          [78.0022, 29.9258],
+          [78.0022, 29.9244]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "brahmakund",
+        "name": "Brahmakund",
+        "area_m2": 8000,
+        "capacity_assumed": 25000,
+        "adjacency": ["har-ki-pauri", "subhash-ghat"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0048, 29.9244],
+          [78.0068, 29.9244],
+          [78.0068, 29.9256],
+          [78.0048, 29.9256],
+          [78.0048, 29.9244]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ganga-ghat-upper",
+        "name": "Ganga Ghat (Upper)",
+        "area_m2": 15000,
+        "capacity_assumed": 35000,
+        "adjacency": ["har-ki-pauri", "moti-bazaar"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0000, 29.9258],
+          [78.0050, 29.9258],
+          [78.0050, 29.9278],
+          [78.0000, 29.9278],
+          [78.0000, 29.9258]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "subhash-ghat",
+        "name": "Subhash Ghat",
+        "area_m2": 10000,
+        "capacity_assumed": 30000,
+        "adjacency": ["brahmakund", "moti-bazaar", "railway-road"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0068, 29.9244],
+          [78.0095, 29.9244],
+          [78.0095, 29.9260],
+          [78.0068, 29.9260],
+          [78.0068, 29.9244]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moti-bazaar",
+        "name": "Moti Bazaar",
+        "area_m2": 20000,
+        "capacity_assumed": 50000,
+        "adjacency": ["ganga-ghat-upper", "subhash-ghat", "railway-road"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0000, 29.9220],
+          [78.0080, 29.9220],
+          [78.0080, 29.9244],
+          [78.0000, 29.9244],
+          [78.0000, 29.9220]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "railway-road",
+        "name": "Railway Road Entry",
+        "area_m2": 18000,
+        "capacity_assumed": 45000,
+        "adjacency": ["subhash-ghat", "moti-bazaar"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0080, 29.9220],
+          [78.0120, 29.9220],
+          [78.0120, 29.9265],
+          [78.0080, 29.9265],
+          [78.0080, 29.9220]
+        ]]
+      }
+    }
+  ]
+}

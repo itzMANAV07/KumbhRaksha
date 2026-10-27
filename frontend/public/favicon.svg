@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Shield background -->
+  <path d="M24 4 L42 12 L42 28 C42 38 33 44 24 46 C15 44 6 38 6 28 L6 12 Z" fill="#e87c00"/>
+  <!-- Inner shield -->
+  <path d="M24 8 L38 15 L38 28 C38 36 31 41 24 43 C17 41 10 36 10 28 L10 15 Z" fill="#c85a00"/>
+  <!-- Trident head -->
+  <rect x="22.5" y="14" width="3" height="16" rx="1" fill="white"/>
+  <rect x="16" y="14" width="2.5" height="8" rx="1" fill="white"/>
+  <rect x="29.5" y="14" width="2.5" height="8" rx="1" fill="white"/>
+  <!-- Trident cross bar -->
+  <rect x="16" y="20" width="16" height="2" rx="1" fill="white"/>
+  <!-- Base -->
+  <rect x="22.5" y="30" width="3" height="4" rx="1" fill="white"/>
+</svg>

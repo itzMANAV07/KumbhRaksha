@@ -1,0 +1,76 @@
+{
+  "facilities": [
+    {
+      "id": "med-hkp-1",
+      "name": "Medical Post – Har Ki Pauri",
+      "type": "medical",
+      "lat": 29.9250,
+      "lon": 78.0035,
+      "zone_id": "har-ki-pauri",
+      "demo": true
+    },
+    {
+      "id": "med-bk-1",
+      "name": "Medical Post – Brahmakund",
+      "type": "medical",
+      "lat": 29.9250,
+      "lon": 78.0058,
+      "zone_id": "brahmakund",
+      "demo": true
+    },
+    {
+      "id": "police-hkp-1",
+      "name": "Police Post – Har Ki Pauri Main",
+      "type": "police",
+      "lat": 29.9248,
+      "lon": 78.0028,
+      "zone_id": "har-ki-pauri",
+      "demo": true
+    },
+    {
+      "id": "police-sg-1",
+      "name": "Police Post – Subhash Ghat",
+      "type": "police",
+      "lat": 29.9252,
+      "lon": 78.0080,
+      "zone_id": "subhash-ghat",
+      "demo": true
+    },
+    {
+      "id": "lost-found-mb-1",
+      "name": "Lost & Found Centre – Moti Bazaar",
+      "type": "lost_found",
+      "lat": 29.9232,
+      "lon": 78.0040,
+      "zone_id": "moti-bazaar",
+      "demo": true
+    },
+    {
+      "id": "toilet-ggu-1",
+      "name": "Toilet Block – Upper Ghat",
+      "type": "toilet",
+      "lat": 29.9268,
+      "lon": 78.0025,
+      "zone_id": "ganga-ghat-upper",
+      "demo": true
+    },
+    {
+      "id": "water-rr-1",
+      "name": "Water Point – Railway Road",
+      "type": "water",
+      "lat": 29.9240,
+      "lon": 78.0100,
+      "zone_id": "railway-road",
+      "demo": true
+    },
+    {
+      "id": "hospital-main",
+      "name": "District Hospital – Emergency",
+      "type": "hospital",
+      "lat": 29.9210,
+      "lon": 78.0090,
+      "zone_id": "railway-road",
+      "demo": true
+    }
+  ]
+}
